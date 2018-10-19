@@ -7,8 +7,9 @@ body {
   margin: auto;
 }
 
-.titel {
+#titel {
   text-align: center;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: p50x; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
 }
 
 li {
@@ -16,7 +17,7 @@ li {
   display: inline-block;
   width: 200px;
   text-align: center;
-  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
 }
 
 p {
@@ -31,5 +32,10 @@ header {
   text-align: center;
 }
 footer {
-  text-align: center;S
+  text-align: center;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+}
+section {
+  min-height: 390px;
+  min-width: inherit;
 }
