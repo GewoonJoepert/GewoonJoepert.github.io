@@ -27,7 +27,7 @@ p {
 
 header {
   width: 900px;
-  height: 150px;
+  height: 39px;
   background-color: white;
   text-align: center;
 }
@@ -36,6 +36,6 @@ footer {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
 }
 section {
-  min-height: 390px;
+  min-height: 500px;
   min-width: inherit;
 }
