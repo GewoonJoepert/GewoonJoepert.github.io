@@ -1,0 +1,53 @@
+[33mcommit fcbc64a94f4a7b2911334db829b3c816c483d4c3[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: GewoonJoepert <joep.vernooij@coderclass.nl>
+Date:   Tue Nov 13 14:49:38 2018 +0100
+
+    1e versie
+
+[33mcommit c2385250a68e9895d4b3bb61f8b3fa17f5acde5a[m
+Author: GewoonJoepert <joep.vernooij@coderclass.nl>
+Date:   Tue Nov 6 15:10:50 2018 +0100
+
+    a:visited & de subpagina's mooi gemaakt met floating etc..
+
+[33mcommit 8b3fb894fb6754517a05d1394d080c28f6766636[m
+Author: GewoonJoepert <joep.vernooij@coderclass.nl>
+Date:   Fri Oct 19 09:31:39 2018 +0200
+
+    section height/widht, footer omlaag & 4 subpagina's aangemaakt
+
+[33mcommit f045954996e3b38209336ca0a174a544fd41342f[m
+Author: GewoonJoepert <joep.vernooij@coderclass.nl>
+Date:   Fri Oct 19 09:07:47 2018 +0200
+
+    il links van font veranderd en body backg naar white
+
+[33mcommit 08189f85e5ab14e55366b65158f6083fc1987c01[m
+Author: GewoonJoepert <joep.vernooij@coderclass.nl>
+Date:   Thu Oct 18 16:02:32 2018 +0200
+
+    header footer nav en lijstjes aangemaakt, ik heb ook de css aangepast en uigebrijd voor de aangemaakt html bestanden
+
+[33mcommit b4d0bcaacbe277776a43df43a8ae58546258733a[m
+Author: GewoonJoepert <joep.vernooij@coderclass.nl>
+Date:   Thu Oct 18 14:51:55 2018 +0200
+
+    background collor verander van de body
+
+[33mcommit 8df2418166f0418883842598941c28542049fa99[m
+Author: GewoonJoepert <joep.vernooij@coderclass.nl>
+Date:   Thu Oct 18 08:52:49 2018 +0200
+
+    stylesheet link toegevoegd
+
+[33mcommit 70944749ac5fc63c97751ad5e7c6bc5e6312ce49[m
+Author: GewoonJoepert <joep.vernooij@coderclass.nl>
+Date:   Tue Oct 16 15:07:17 2018 +0200
+
+    css toegevoegd
+
+[33mcommit 00b22e8cdd1be04371d38a95dfa4c1251880c6e8[m
+Author: GewoonJoepert <joep.vernooij@coderclass.nl>
+Date:   Tue Oct 16 14:39:19 2018 +0200
+
+    basiscode, hello world en titel toegevoegd

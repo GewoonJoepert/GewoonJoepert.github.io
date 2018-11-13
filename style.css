@@ -9,11 +9,14 @@ body {
 
 #titel {
   text-align: center;
-  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: p50x; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-style: normal; font-variant: normal;
 }
 
-li {
+
+ul li a:visited{
   list-style-type: none;
+  a: visited;
+  color: black;
   display: inline-block;
   width: 200px;
   text-align: center;
@@ -28,14 +31,26 @@ p {
 header {
   width: 900px;
   height: 39px;
-  background-color: white;
+  background-color: grey;
   text-align: center;
 }
 footer {
+  clear:left;
+  background-color: grey;
   text-align: center;
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
 }
 section {
+  float: left;
+  width: 750px;
+  height: 500px;
   min-height: 500px;
   min-width: inherit;
+  background-color: green;
+}
+nav {
+  float: left;
+  width: 150px;
+  height: 500px;
+  background-color: red;
 }
