@@ -1,9 +1,15 @@
+html {
+  height: 100%;
+}
 body {
   background-color: white;
+  overflow: hidden;
+  min-height: 100%
 }
 
 .alles {
-  width: 900px;
+  width: 100%;
+  height: 100%;
   margin: auto;
 }
 
@@ -13,45 +19,90 @@ body {
 }
 
 
-ul li a:visited{
-  list-style-type: none;
-  a: visited;
-  color: black;
-  display: inline-block;
-  width: 200px;
-  text-align: center;
-  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-family:"Bree Serif",sans-serif;
+}
+
+#sidebar {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:200px;
+  height:100vh;
+  background:#1a1a1a;
+  text-align:center;
+  transform-origin:left;
+  transform:perspective(1200px) rotateY(90deg);
+  transition:all 400ms ease;
+}
+#sidebar ul li {
+  color:#ccc;
+  font-size:20px;
+  width:100%;
+  height:50px;
+  border-bottom:1px solid #222222;
+  line-height:50px;
+}
+#sidebar.active {
+  transform:perspective(1200px) rotateY(0deg);
+}
+
+
+
+#toggle-btn {
+  position:absolute;
+  left:30px;
+  top:20px;
+  transition:left 200ms linear 0ms,transform 300ms ease 100ms;
+}
+#toggle-btn.active {
+  left:230px;
+  transform:rotate(360deg);
+}
+#toggle-btn span {
+  position:relative;
+  top:0px;
+  display:block;
+  background:#1a1a1a;
+  width:30px;
+  height:5px;
+  margin:5px 0px;
+  cursor:pointer;
+  transition:transform 300ms ease 200ms;
+}
+#toggle-btn.active span:nth-child(1) {
+  top:10px;
+  transform:rotate(45deg);
+}
+#toggle-btn.active span:nth-child(2) {
+  opacity:0;
+}
+#toggle-btn.active span:nth-child(3) {
+  top:-10px;
+  transform:rotate(-45deg);
 }
 
 p {
   text-align: center;
-  background-color: green;
+  background-color: white;
 }
 
 header {
-  width: 900px;
-  height: 39px;
+  width: 100%;
   background-color: grey;
   text-align: center;
 }
-footer {
-  clear:left;
-  background-color: grey;
-  text-align: center;
-  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
-}
+
 section {
-  float: left;
-  width: 750px;
-  height: 500px;
   min-height: 500px;
   min-width: inherit;
-  background-color: green;
+  background-color: white;
+  text-align: center;
 }
-nav {
-  float: left;
-  width: 150px;
-  height: 500px;
-  background-color: red;
+div {
+  position: absolute;
+  background-color: white;
 }
-  
