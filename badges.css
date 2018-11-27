@@ -37,9 +37,10 @@ body {
   transform-origin:left;
   transform:perspective(1200px) rotateY(90deg);
   transition:all 400ms ease;
+  color: white;
 }
 #sidebar ul li {
-  color:#ccc;
+  color: white;
   font-size:20px;
   width:100%;
   height:50px;
@@ -48,6 +49,7 @@ body {
 }
 #sidebar.active {
   transform:perspective(1200px) rotateY(0deg);
+  color: white;
 }
 
 
@@ -57,6 +59,7 @@ body {
   left:30px;
   top:20px;
   transition:left 200ms linear 0ms,transform 300ms ease 100ms;
+  color: white;
 }
 #toggle-btn.active {
   left:230px;
@@ -66,23 +69,27 @@ body {
   position:relative;
   top:0px;
   display:block;
-  background:#1a1a1a;
+  background:white;
   width:30px;
   height:5px;
   margin:5px 0px;
   cursor:pointer;
   transition:transform 300ms ease 200ms;
+  color: white;
 }
 #toggle-btn.active span:nth-child(1) {
   top:10px;
   transform:rotate(45deg);
+  color: white;
 }
 #toggle-btn.active span:nth-child(2) {
   opacity:0;
+  color: white;
 }
 #toggle-btn.active span:nth-child(3) {
   top:-10px;
   transform:rotate(-45deg);
+  color: white;
 }
 
 p {
@@ -105,4 +112,14 @@ section {
 div {
   position: absolute;
   background-color: white;
+}
+a:enabled {
+  color:grey;
+}
+#badges {
+  margin-top: 20px;
+}
+h2 {
+  margin-top: 15px;
+  margin-bottom: 5px;
 }

@@ -18,7 +18,9 @@ body {
   text-align: center;
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; font-style: normal; font-variant: normal;
 }
-
+h2 {
+  font-family:"freemono", monospace;
+}
 
 * {
   margin:0px;
@@ -38,9 +40,10 @@ body {
   transform-origin:left;
   transform:perspective(1200px) rotateY(90deg);
   transition:all 400ms ease;
+  color: white;
 }
 #sidebar ul li {
-  color:#ccc;
+  color: white;
   font-size:20px;
   width:100%;
   height:50px;
@@ -49,6 +52,7 @@ body {
 }
 #sidebar.active {
   transform:perspective(1200px) rotateY(0deg);
+  color: white;
 }
 
 
@@ -58,6 +62,7 @@ body {
   left:30px;
   top:20px;
   transition:left 200ms linear 0ms,transform 300ms ease 100ms;
+  color: white;
 }
 #toggle-btn.active {
   left:230px;
@@ -67,28 +72,33 @@ body {
   position:relative;
   top:0px;
   display:block;
-  background:#1a1a1a;
+  background:white;
   width:30px;
   height:5px;
   margin:5px 0px;
   cursor:pointer;
   transition:transform 300ms ease 200ms;
+  color: white;
 }
 #toggle-btn.active span:nth-child(1) {
   top:10px;
   transform:rotate(45deg);
+  color: white;
 }
 #toggle-btn.active span:nth-child(2) {
   opacity:0;
+  color: white;
 }
 #toggle-btn.active span:nth-child(3) {
   top:-10px;
   transform:rotate(-45deg);
+  color: white;
 }
 
 p {
   text-align: left;
   background-color: white;
+  font-family:"freemono", monospace;
 }
 
 header {
@@ -104,10 +114,68 @@ section {
   text-align: center;
 }
 div {
-position: absolute;
 background-color: white;
+  font-family:"freemono", monospace;
 }
 
 .overmij {
-text-align: left;
+text-align: center;
+font-family:"freemono", monospace;
+}
+#warpimg {
+  display: flex;
+  justify-content: center;
+}
+.Home {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family:"freemono", monospace;  ;
+}
+.titel  {
+    font-family:"freemono", monospace;
+}
+h3 {
+    font-family:"freemono", monospace;
+}
+.homeimg {
+  float: left;
+  clear: left;
+  height: 250px;
+  width: 350px;
+  margin-bottom: 15px;
+  margin-right: 25px
+}
+a:enabled {
+  color:grey;
+}
+
+#voetimg {
+  float: left;
+  clear: left;
+  height: 250px;
+  width: 350px;
+  margin-right: 25px
+}
+#blenderimg {
+  width: 500px;
+  float:left;
+  margin-left: 25px;
+  margin-right: 25px;
+  clear: left;
+
+}
+#projectp {
+  margin-right: 25px;
+}
+#hueimg {
+  width: 200px;
+  height: 200px;
+  float: left;
+  clear: left;
+  margin-top: 25px;
+}
+#schoolimg {
+  float: left;
+  margin-left: 25px;
+  margin-top: 25px;
 }
